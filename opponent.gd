@@ -19,10 +19,7 @@ func _fixed_process(delta):
 			velocity -= friction * delta
 		if (velocity < 0):
 			velocity += friction * delta
-	if (Input.is_action_pressed("MOVE_LEFT")):
-		velocity -= acceleration * delta
-	if (Input.is_action_pressed("MOVE_RIGHT")):
-		velocity += acceleration * delta
+	velocity += acceleration * (randi() % 3 - 1) * delta
 	if (velocity < -10):
 		velocity = -10
 	if (velocity > 10):
