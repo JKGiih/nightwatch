@@ -21,3 +21,22 @@ func increment_score(delta):
 	
 func get_score():
 	return int(score)
+	
+func get_minutes():
+	return get_score() % 60
+	
+func get_hours():
+	return ((get_score() + 1080 - get_minutes()) / 60) % 24
+
+func get_minutes_ones():
+	return (get_minutes() % 10)
+	
+func get_minutes_tens():
+	return (get_minutes() - get_minutes_ones()) / 10
+
+func get_hours_ones():
+	return (get_hours() % 10)
+	
+func get_hours_tens():
+	return (get_hours() - get_hours_ones()) / 10
+	
