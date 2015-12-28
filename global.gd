@@ -40,3 +40,6 @@ func get_hours_ones():
 func get_hours_tens():
 	return (get_hours() - get_hours_ones()) / 10
 	
+func get_time_str():
+	return str(get_node("/root/global").get_hours_tens()) + str(get_node("/root/global").get_hours_ones()) + ":" + str(get_node("/root/global").get_minutes_tens()) + str(get_node("/root/global").get_minutes_ones())
+	

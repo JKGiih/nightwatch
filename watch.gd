@@ -42,5 +42,3 @@ func _fixed_process(delta):
 	self.set_pos(Vector2(original_x+offset_x, self.get_pos().y+velocity))
 	if (self.get_pos().y < 220 or self.get_pos().y > 628):
 		get_node("/root/global").goto_scene("res://gameover.xml")
-		
-	print (get_node("raycast_down").is_colliding())
