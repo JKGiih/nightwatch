@@ -9,7 +9,7 @@
 			<int_array  len="6"> 				1, 0, 36, 35, 2, 0 </int_array>
 			<string> "names" </string>
 			<string_array  len="37">
-				<string> "start" </string>
+				<string> "instructions" </string>
 				<string> "Panel" </string>
 				<string> "_import_path" </string>
 				<string> "visibility/visible" </string>
@@ -62,7 +62,7 @@
 				<resource  resource_type="Script" path="res://instructions.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "Script" </string>
+					<string> "2D" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>

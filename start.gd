@@ -8,3 +8,6 @@ func _on_goto_game_pressed():
 
 func _on_goto_instructions_pressed():
         get_node("/root/global").goto_scene("res://instructions.xml")
+
+func _on_goto_credits_pressed():
+        get_node("/root/global").goto_scene("res://credits.xml")
