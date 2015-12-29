@@ -37,5 +37,5 @@ func _fixed_process(delta):
 			velocity = 0
 	if (get_node("/root/global").get_state() == "GAMEOVER"):
 		get_node("Camera2D").set_offset(Vector2(get_node("Camera2D").get_offset().x + camera_direction, get_node("Camera2D").get_offset().y))
-		if (get_node("Camera2D").get_camera_pos().x + get_node("Camera2D").get_offset().x < 300 or get_node("Camera2D").get_camera_pos().x + get_node("Camera2D").get_offset().x > 2436):
+		if (get_node("Camera2D").get_camera_pos().x + get_node("Camera2D").get_offset().x <= 261 or get_node("Camera2D").get_camera_pos().x + get_node("Camera2D").get_offset().x >= 2468):
 			camera_direction = camera_direction * -1

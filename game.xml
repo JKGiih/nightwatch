@@ -178,13 +178,13 @@
 				<resource  resource_type="Script" path="res://game.gd">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
-					<string> "2D" </string>
+					<string> "Script" </string>
 					<string> "__editor_plugin_states__" </string>
 					<dictionary  shared="false">
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> 1779.07, 15.0772 </vector2>
+							<vector2> 715.57, 15.0772 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -301,7 +301,7 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 0 </int>
+							<int> 2 </int>
 							<string> "sources" </string>
 							<array  len="5" shared="false">
 								<string> "res://game.gd" </string>
@@ -352,15 +352,15 @@
 				<resource  resource_type="Texture" path="res://assets/background_clearl.png">  </resource>
 				<real> 0.1 </real>
 				<real> -375 </real>
-				<real> -58 </real>
+				<real> -368 </real>
 				<real> 675 </real>
-				<real> 149 </real>
+				<real> -161 </real>
 				<resource  resource_type="Font" path="res://assets/fonts/segment7.fnt">  </resource>
 				<string> "00-00" </string>
 				<real> -502 </real>
-				<real> -373 </real>
+				<real> -58 </real>
 				<real> 1148 </real>
-				<real> -166 </real>
+				<real> 149 </real>
 				<string> "YOU LOST!" </string>
 				<vector2> 368, 424 </vector2>
 				<vector2> 568, 424 </vector2>

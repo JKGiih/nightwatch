@@ -20,7 +20,7 @@ func _fixed_process(delta):
 				velocity -= friction * delta
 			if (velocity < 0):
 				velocity += friction * delta
-		velocity += acceleration * (randi() % 3 - 1) * delta
+		velocity += acceleration * (randi() % 5 - 2) * delta
 		if (velocity < -10):
 			velocity = -10
 		if (velocity > 10):
