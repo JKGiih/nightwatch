@@ -2,6 +2,7 @@ extends Node
 
 var current_scene = null
 var score = null
+var state = null
 
 func _ready():
 	var root = get_tree().get_root()
@@ -12,7 +13,13 @@ func goto_scene(scene):
 	var s = ResourceLoader.load(scene)
 	current_scene = s.instance()
 	get_tree().get_root().add_child(current_scene)
+
+func set_state(s):
+	state = s
 	
+func get_state():
+	return state
+
 func reset_score():
 	score = 0
 	
