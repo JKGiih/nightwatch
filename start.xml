@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="2" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
+<resource_file type="PackedScene" subresource_count="5" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
 	<ext_resource path="res://start.gd" type="Script"></ext_resource>
+	<ext_resource path="res://assets/fonts/segment7_192.fnt" type="Font"></ext_resource>
+	<ext_resource path="res://assets/watch_big.png" type="Texture"></ext_resource>
+	<ext_resource path="res://assets/fonts/segment7_92.fnt" type="Font"></ext_resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
-			<int> 3 </int>
+			<int> 0 </int>
 			<string> "conns" </string>
-			<int_array  len="18"> 				1, 0, 38, 37, 2, 0, 2, 0, 38, 39, 2, 0, 3, 0, 38, 40, 2, 0 </int_array>
+			<int_array  len="0"> 				 </int_array>
 			<string> "names" </string>
-			<string_array  len="41">
+			<string_array  len="64">
 				<string> "start" </string>
 				<string> "Panel" </string>
 				<string> "_import_path" </string>
@@ -29,34 +32,57 @@
 				<string> "size_flags/stretch_ratio" </string>
 				<string> "script/script" </string>
 				<string> "__meta__" </string>
-				<string> "goto_game" </string>
-				<string> "Button" </string>
+				<string> "title" </string>
+				<string> "Label" </string>
 				<string> "margin/left" </string>
 				<string> "margin/top" </string>
 				<string> "margin/right" </string>
 				<string> "margin/bottom" </string>
-				<string> "disabled" </string>
-				<string> "toggle_mode" </string>
-				<string> "is_pressed" </string>
-				<string> "click_on_press" </string>
+				<string> "custom_fonts/font" </string>
+				<string> "range/min" </string>
+				<string> "range/max" </string>
+				<string> "range/step" </string>
+				<string> "range/page" </string>
+				<string> "range/value" </string>
+				<string> "range/exp_edit" </string>
+				<string> "rounded_values" </string>
 				<string> "text" </string>
-				<string> "icon" </string>
-				<string> "flat" </string>
-				<string> "clip_text" </string>
 				<string> "align" </string>
-				<string> "goto_instructions" </string>
-				<string> "goto_credits" </string>
-				<string> "_on_goto_game_pressed" </string>
-				<string> "pressed" </string>
-				<string> "_on_goto_instructions_pressed" </string>
-				<string> "_on_goto_credits_pressed" </string>
+				<string> "valign" </string>
+				<string> "autowrap" </string>
+				<string> "uppercase" </string>
+				<string> "percent_visible" </string>
+				<string> "t00" </string>
+				<string> "Sprite" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/rot" </string>
+				<string> "transform/scale" </string>
+				<string> "z/z" </string>
+				<string> "z/relative" </string>
+				<string> "texture" </string>
+				<string> "centered" </string>
+				<string> "offset" </string>
+				<string> "flip_h" </string>
+				<string> "flip_v" </string>
+				<string> "vframes" </string>
+				<string> "hframes" </string>
+				<string> "frame" </string>
+				<string> "modulate" </string>
+				<string> "region" </string>
+				<string> "region_rect" </string>
+				<string> "t10" </string>
+				<string> "t01" </string>
+				<string> "t11" </string>
+				<string> "instructions" </string>
+				<string> "credits" </string>
+				<string> "quit" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 4 </int>
+			<int> 10 </int>
 			<string> "nodes" </string>
-			<int_array  len="226"> 				-1, -1, 1, 0, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 18, 6, 19, 7, 0, 0, 0, 21, 20, -1, 27, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 8, 23, 9, 24, 10, 25, 11, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 26, 4, 27, 4, 28, 4, 29, 4, 30, 12, 31, 13, 32, 4, 33, 4, 34, 3, 0, 0, 0, 21, 35, -1, 27, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 14, 23, 15, 24, 16, 25, 17, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 26, 4, 27, 4, 28, 4, 29, 4, 30, 18, 31, 13, 32, 4, 33, 4, 34, 3, 0, 0, 0, 21, 36, -1, 27, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 8, 23, 16, 24, 19, 25, 20, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 26, 4, 27, 4, 28, 4, 29, 4, 30, 21, 31, 13, 32, 4, 33, 4, 34, 3, 0 </int_array>
+			<int_array  len="584"> 				-1, -1, 1, 0, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 18, 6, 19, 7, 0, 0, 0, 21, 20, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 22, 8, 23, 9, 24, 10, 25, 11, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 26, 12, 27, 13, 28, 2, 29, 2, 30, 2, 31, 13, 32, 4, 33, 4, 34, 14, 35, 15, 36, 15, 37, 4, 38, 4, 39, 16, 0, 0, 0, 41, 40, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 42, 17, 43, 13, 44, 18, 45, 15, 46, 1, 47, 19, 48, 1, 49, 20, 50, 4, 51, 4, 52, 3, 53, 3, 54, 15, 55, 21, 56, 4, 57, 22, 0, 0, 0, 41, 58, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 42, 23, 43, 13, 44, 18, 45, 15, 46, 1, 47, 19, 48, 1, 49, 20, 50, 4, 51, 4, 52, 3, 53, 3, 54, 15, 55, 21, 56, 4, 57, 22, 0, 0, 0, 41, 59, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 42, 24, 43, 25, 44, 18, 45, 15, 46, 1, 47, 19, 48, 1, 49, 20, 50, 4, 51, 4, 52, 3, 53, 3, 54, 15, 55, 21, 56, 4, 57, 22, 0, 0, 0, 41, 60, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 42, 26, 43, 27, 44, 18, 45, 15, 46, 1, 47, 19, 48, 1, 49, 20, 50, 4, 51, 4, 52, 3, 53, 3, 54, 15, 55, 21, 56, 4, 57, 22, 0, 0, 0, 21, 0, -1, 31, 2, 0, 3, 1, 4, 28, 5, 2, 6, 3, 22, 29, 23, 30, 24, 31, 25, 32, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 26, 33, 27, 13, 28, 2, 29, 2, 30, 2, 31, 13, 32, 4, 33, 4, 34, 34, 35, 15, 36, 15, 37, 4, 38, 4, 39, 16, 0, 0, 0, 21, 61, -1, 31, 2, 0, 3, 1, 4, 28, 5, 2, 6, 3, 22, 35, 23, 36, 24, 37, 25, 38, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 26, 33, 27, 13, 28, 2, 29, 2, 30, 2, 31, 13, 32, 4, 33, 4, 34, 39, 35, 15, 36, 15, 37, 4, 38, 4, 39, 16, 0, 0, 0, 21, 62, -1, 31, 2, 0, 3, 1, 4, 28, 5, 2, 6, 3, 22, 40, 23, 41, 24, 42, 25, 43, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 26, 33, 27, 13, 28, 2, 29, 2, 30, 2, 31, 13, 32, 4, 33, 4, 34, 44, 35, 15, 36, 15, 37, 4, 38, 4, 39, 16, 0, 0, 0, 21, 63, -1, 31, 2, 0, 3, 1, 4, 28, 5, 2, 6, 3, 22, 45, 23, 46, 24, 47, 25, 48, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 26, 33, 27, 13, 28, 2, 29, 2, 30, 2, 31, 13, 32, 4, 33, 4, 34, 49, 35, 15, 36, 15, 37, 4, 38, 4, 39, 16, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="22" shared="false">
+			<array  len="50" shared="false">
 				<node_path> "" </node_path>
 				<bool> True </bool>
 				<real> 1 </real>
@@ -72,7 +98,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -292.352, -189.293 </vector2>
+							<vector2> -192.813, -9.62324 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -189,11 +215,10 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 2 </int>
+							<int> 1 </int>
 							<string> "sources" </string>
-							<array  len="3" shared="false">
+							<array  len="2" shared="false">
 								<string> "res://global.gd" </string>
-								<string> "res://gameover.gd" </string>
 								<string> "res://start.gd" </string>
 							</array>
 						</dictionary>
@@ -206,19 +231,48 @@
 						<int> 0 </int>
 					</dictionary>
 				</dictionary>
-				<real> 41 </real>
-				<real> 36 </real>
-				<real> 138 </real>
-				<real> 57 </real>
-				<string> "Go to Game" </string>
-				<resource name=""></resource>				<real> 40 </real>
-				<real> 96 </real>
-				<real> 160 </real>
-				<real> 117 </real>
-				<string> "Go to Instructions" </string>
-				<real> 161 </real>
-				<real> 181 </real>
-				<string> "Go to Credits" </string>
+				<real> 110 </real>
+				<real> 94 </real>
+				<real> 1910 </real>
+				<real> 301 </real>
+				<resource  resource_type="Font" path="res://assets/fonts/segment7_192.fnt">  </resource>
+				<real> 0 </real>
+				<string> "Nigh wa ch" </string>
+				<int> 0 </int>
+				<real> -1 </real>
+				<vector2> 610.09, 172.378 </vector2>
+				<vector2> 1, 1 </vector2>
+				<resource  resource_type="Texture" path="res://assets/watch_big.png">  </resource>
+				<vector2> 0, 0 </vector2>
+				<color> 1, 1, 1, 1 </color>
+				<rect2> 0, 0, 0, 0 </rect2>
+				<vector2> 956.65, 173.28 </vector2>
+				<vector2> 607.383, 51.4425 </vector2>
+				<real> 90 </real>
+				<vector2> 961.163, 318.583 </vector2>
+				<real> 270 </real>
+				<real> 0.5 </real>
+				<real> 527 </real>
+				<real> 372 </real>
+				<real> 905 </real>
+				<real> 472 </real>
+				<resource  resource_type="Font" path="res://assets/fonts/segment7_92.fnt">  </resource>
+				<string> "Start" </string>
+				<real> 323 </real>
+				<real> 468 </real>
+				<real> 1079 </real>
+				<real> 568 </real>
+				<string> "Instructions" </string>
+				<real> 460 </real>
+				<real> 570 </real>
+				<real> 1216 </real>
+				<real> 670 </real>
+				<string> "Credits" </string>
+				<real> 533 </real>
+				<real> 664 </real>
+				<real> 1289 </real>
+				<real> 764 </real>
+				<string> "Quit" </string>
 			</array>
 			<string> "version" </string>
 			<int> 1 </int>
