@@ -4,11 +4,13 @@ extends RigidBody2D
 var velocity
 var acceleration
 var friction
+var camera_direction
 
 func _ready():
 	velocity = 0
 	acceleration = 20
 	friction = 4
+	camera_direction = -5
 	set_fixed_process(true)
 	
 func _fixed_process(delta):
@@ -33,3 +35,7 @@ func _fixed_process(delta):
 		if (self.get_pos().x > 2608):
 			self.set_pos(Vector2(2608, self.get_pos().y))
 			velocity = 0
+	if (get_node("/root/global").get_state() == "GAMEOVER"):
+		get_node("Camera2D").set_offset(Vector2(get_node("Camera2D").get_offset().x + camera_direction, get_node("Camera2D").get_offset().y))
+		if (get_node("Camera2D").get_camera_pos().x + get_node("Camera2D").get_offset().x < 300 or get_node("Camera2D").get_camera_pos().x + get_node("Camera2D").get_offset().x > 2436):
+			camera_direction = camera_direction * -1

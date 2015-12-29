@@ -289,15 +289,14 @@
 						<string> "Script" </string>
 						<dictionary  shared="false">
 							<string> "current" </string>
-							<int> 5 </int>
+							<int> 2 </int>
 							<string> "sources" </string>
-							<array  len="6" shared="false">
+							<array  len="5" shared="false">
 								<string> "res://game.gd" </string>
 								<string> "res://global.gd" </string>
 								<string> "res://player.gd" </string>
 								<string> "res://watch.gd" </string>
 								<string> "res://opponent.gd" </string>
-								<string> "res://gameover.gd" </string>
 							</array>
 						</dictionary>
 					</dictionary>
