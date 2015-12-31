@@ -16,6 +16,7 @@ func _fixed_process(delta):
 			get_node("/root/global").set_state("GAMEOVER")
 	if (get_node("/root/global").get_state() == "GAMEOVER"):
 		if (Input.is_action_pressed("ACCEPT")):
+			get_node("/root/music_player/SamplePlayer").play("tick", true)
 			get_node("/root/global").goto_scene("res://start.xml")
 
 func show_result():

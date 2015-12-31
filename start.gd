@@ -14,14 +14,18 @@ func _fixed_process(delta):
 		just_pressed = false
 	if (Input.is_action_pressed("ACCEPT") and not just_pressed):
 		if (cursor == "START"):
+			get_node("/root/music_player/SamplePlayer").play("tick", true)
 			get_node("/root/global").goto_scene("res://game.xml")
 		if (cursor == "INSTRUCTIONS"):
+			get_node("/root/music_player/SamplePlayer").play("tick", true)
 			get_node("/root/global").goto_scene("res://instructions.xml")
 		if (cursor == "CREDITS"):
+			get_node("/root/music_player/SamplePlayer").play("tick", true)
 			get_node("/root/global").goto_scene("res://credits.xml")
 		if (cursor == "QUIT"):
 			get_tree().quit()
 	if (Input.is_action_pressed("MOVE_UP") and not just_pressed):
+		get_node("/root/music_player/SamplePlayer").play("tick", true)
 		if (cursor == "INSTRUCTIONS"):
 			get_node("instructions").set_opacity(.5)
 			get_node("start").set_opacity(1)
@@ -36,6 +40,7 @@ func _fixed_process(delta):
 			cursor = "CREDITS"
 		just_pressed = true
 	if (Input.is_action_pressed("MOVE_DOWN") and not just_pressed):
+		get_node("/root/music_player/SamplePlayer").play("tick", true)
 		if (cursor == "CREDITS"):
 			get_node("credits").set_opacity(.5)
 			get_node("quit").set_opacity(1)

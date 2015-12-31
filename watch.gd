@@ -40,5 +40,6 @@ func _fixed_process(delta):
 			velocity = 5
 		self.set_pos(Vector2(original_x+offset_x, self.get_pos().y+velocity))
 		if (self.get_pos().y < 220 or self.get_pos().y > 628):
+			get_node("/root/music_player/SamplePlayer").play("tick", true)
 			get_node("/root/game").show_result()
 			get_node("/root/global").set_state("GAMEOVER")
