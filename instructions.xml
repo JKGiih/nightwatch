@@ -1,89 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="5" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
-	<ext_resource path="res://instructions.gd" type="Script"></ext_resource>
-	<ext_resource path="res://assets/fonts/segment7_32.fnt" type="Font"></ext_resource>
-	<ext_resource path="res://assets/watch_biggest.png" type="Texture"></ext_resource>
-	<ext_resource path="res://assets/fonts/segment7_48.fnt" type="Font"></ext_resource>
+<resource_file type="PackedScene" subresource_count="5" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://instructions.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://assets/fonts/segment7_32.fnt" type="Font" index="1"></ext_resource>
+	<ext_resource path="res://assets/fonts/segment7_48.fnt" type="Font" index="3"></ext_resource>
+	<ext_resource path="res://assets/watch_biggest.png" type="Texture" index="2"></ext_resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
 			<int> 0 </int>
 			<string> "conns" </string>
 			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
 			<string> "names" </string>
-			<string_array  len="58">
+			<string_array  len="27">
 				<string> "instructions" </string>
-				<string> "Panel" </string>
-				<string> "_import_path" </string>
-				<string> "visibility/visible" </string>
-				<string> "visibility/opacity" </string>
-				<string> "visibility/self_opacity" </string>
-				<string> "visibility/light_mask" </string>
 				<string> "anchor/right" </string>
 				<string> "anchor/bottom" </string>
-				<string> "focus_neighbour/left" </string>
-				<string> "focus_neighbour/top" </string>
-				<string> "focus_neighbour/right" </string>
-				<string> "focus_neighbour/bottom" </string>
 				<string> "focus/ignore_mouse" </string>
 				<string> "focus/stop_mouse" </string>
 				<string> "size_flags/horizontal" </string>
 				<string> "size_flags/vertical" </string>
-				<string> "size_flags/stretch_ratio" </string>
 				<string> "script/script" </string>
 				<string> "__meta__" </string>
+				<string> "Panel" </string>
 				<string> "Label" </string>
 				<string> "margin/left" </string>
 				<string> "margin/top" </string>
 				<string> "margin/right" </string>
 				<string> "margin/bottom" </string>
 				<string> "custom_fonts/font" </string>
-				<string> "range/min" </string>
-				<string> "range/max" </string>
-				<string> "range/step" </string>
-				<string> "range/page" </string>
-				<string> "range/value" </string>
-				<string> "range/exp_edit" </string>
-				<string> "rounded_values" </string>
 				<string> "text" </string>
-				<string> "align" </string>
-				<string> "valign" </string>
 				<string> "autowrap" </string>
-				<string> "uppercase" </string>
 				<string> "percent_visible" </string>
+				<string> "lines_skipped" </string>
+				<string> "max_lines_visible" </string>
 				<string> "Sprite" </string>
 				<string> "transform/pos" </string>
 				<string> "transform/rot" </string>
-				<string> "transform/scale" </string>
-				<string> "z/z" </string>
-				<string> "z/relative" </string>
 				<string> "texture" </string>
-				<string> "centered" </string>
-				<string> "offset" </string>
-				<string> "flip_h" </string>
-				<string> "flip_v" </string>
-				<string> "vframes" </string>
-				<string> "hframes" </string>
-				<string> "frame" </string>
-				<string> "modulate" </string>
-				<string> "region" </string>
-				<string> "region_rect" </string>
 				<string> "Label1" </string>
 				<string> "Label2" </string>
 			</string_array>
 			<string> "node_count" </string>
 			<int> 5 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
 			<string> "nodes" </string>
-			<int_array  len="299"> 				-1, -1, 1, 0, -1, 18, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 3, 8, 3, 9, 0, 10, 0, 11, 0, 12, 0, 13, 4, 14, 1, 15, 5, 16, 5, 17, 2, 18, 6, 19, 7, 0, 0, 0, 20, 20, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 21, 8, 22, 9, 23, 10, 24, 11, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 25, 12, 26, 13, 27, 14, 28, 2, 29, 15, 30, 13, 31, 4, 32, 4, 33, 16, 34, 17, 35, 17, 36, 1, 37, 4, 38, 18, 0, 0, 0, 39, 39, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 40, 19, 41, 20, 42, 21, 43, 17, 44, 1, 45, 22, 46, 1, 47, 23, 48, 4, 49, 4, 50, 3, 51, 3, 52, 17, 53, 24, 54, 4, 55, 25, 0, 0, 0, 20, 56, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 21, 26, 22, 27, 23, 28, 24, 29, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 25, 12, 26, 13, 27, 30, 28, 2, 29, 15, 30, 13, 31, 4, 32, 4, 33, 31, 34, 17, 35, 17, 36, 1, 37, 4, 38, 18, 0, 0, 0, 20, 57, -1, 31, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 21, 32, 22, 33, 23, 34, 24, 35, 9, 0, 10, 0, 11, 0, 12, 0, 13, 1, 14, 1, 15, 5, 17, 2, 25, 36, 26, 13, 27, 2, 28, 2, 29, 37, 30, 13, 31, 4, 32, 4, 33, 38, 34, 17, 35, 17, 36, 1, 37, 4, 38, 18, 0 </int_array>
+			<int_array  len="135"> 				-1, -1, 9, 0, -1, 8, 1, 0, 2, 0, 3, 1, 4, 2, 5, 3, 6, 3, 7, 4, 8, 5, 0, 0, 0, 10, 10, -1, 13, 11, 6, 12, 7, 13, 8, 14, 9, 3, 2, 4, 2, 5, 3, 15, 10, 16, 11, 17, 2, 18, 12, 19, 13, 20, 14, 0, 0, 0, 21, 21, -1, 3, 22, 15, 23, 16, 24, 17, 0, 0, 0, 10, 25, -1, 13, 11, 18, 12, 19, 13, 20, 14, 21, 3, 2, 4, 2, 5, 3, 15, 10, 16, 22, 17, 2, 18, 12, 19, 13, 20, 14, 0, 0, 0, 10, 26, -1, 13, 11, 23, 12, 24, 13, 25, 14, 26, 3, 2, 4, 2, 5, 3, 15, 27, 16, 28, 17, 2, 18, 12, 19, 13, 20, 14, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="39" shared="false">
-				<node_path> "" </node_path>
-				<bool> True </bool>
-				<real> 1 </real>
+			<array  len="29" shared="false">
 				<int> 1 </int>
 				<bool> False </bool>
+				<bool> True </bool>
 				<int> 2 </int>
-				<resource  resource_type="Script" path="res://instructions.gd">  </resource>
+				<resource  external="0">  </resource>
 				<dictionary  shared="false">
 					<string> "__editor_plugin_screen__" </string>
 					<string> "2D" </string>
@@ -92,7 +65,7 @@
 						<string> "2D" </string>
 						<dictionary  shared="false">
 							<string> "ofs" </string>
-							<vector2> -244.068, -128.887 </vector2>
+							<vector2> -15.2094, -128.887 </vector2>
 							<string> "snap_grid" </string>
 							<bool> False </bool>
 							<string> "snap_offset" </string>
@@ -206,16 +179,10 @@
 							<string> "znear" </string>
 							<real> 0.1 </real>
 						</dictionary>
-						<string> "Script" </string>
+						<string> "Anim" </string>
 						<dictionary  shared="false">
-							<string> "current" </string>
-							<int> 2 </int>
-							<string> "sources" </string>
-							<array  len="3" shared="false">
-								<string> "res://global.gd" </string>
-								<string> "res://start.gd" </string>
-								<string> "res://instructions.gd" </string>
-							</array>
+							<string> "visible" </string>
+							<bool> False </bool>
 						</dictionary>
 					</dictionary>
 					<string> "__editor_run_settings__" </string>
@@ -230,36 +197,28 @@
 				<real> 114 </real>
 				<real> 1332 </real>
 				<real> 354 </real>
-				<resource  resource_type="Font" path="res://assets/fonts/segment7_32.fnt">  </resource>
-				<real> 0 </real>
-				<real> 4 </real>
-				<real> 8.888889 </real>
+				<resource  external="1">  </resource>
 				<string> "The modern capitalist society is chiefly built upon stores that sell watches. These stores, traditionally opening at 8 in the morning and closing at 6 in the evening, are the single most important employers of nightwatchmen." </string>
+				<real> 1 </real>
 				<int> 0 </int>
-				<real> -1 </real>
+				<int> -1 </int>
 				<vector2> 674, 384 </vector2>
 				<real> 90 </real>
-				<vector2> 1, 1 </vector2>
-				<resource  resource_type="Texture" path="res://assets/watch_biggest.png">  </resource>
-				<vector2> 0, 0 </vector2>
-				<color> 1, 1, 1, 1 </color>
-				<rect2> 0, 0, 0, 0 </rect2>
+				<resource  external="2">  </resource>
 				<real> 40 </real>
 				<real> 553 </real>
 				<real> 1334 </real>
 				<real> 793 </real>
-				<real> 5 </real>
 				<string> "The job of the nightwatchman is to keep an eye on the watches. Specifically, the nightwatchman is to prevent cunning thieves from snatching any of the watches off from the display table. This, as all watches are made of a conductive metal, is most conveniently done with the aid of a powerful magnet." </string>
 				<real> 513 </real>
 				<real> 29 </real>
 				<real> 873 </real>
 				<real> 84 </real>
-				<resource  resource_type="Font" path="res://assets/fonts/segment7_48.fnt">  </resource>
-				<real> 1.410256 </real>
+				<resource  external="3">  </resource>
 				<string> "Instructions" </string>
 			</array>
 			<string> "version" </string>
-			<int> 1 </int>
+			<int> 2 </int>
 		</dictionary>
 
 	</main_resource>
